@@ -1,8 +1,8 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://www.aemshop.net/graphql",
-      "commerce-endpoint": "https://www.aemshop.net/cs-graphql",
+      "commerce-core-endpoint": "https://master-7rqtwti-5knoexkof5j4w.us-4.magentosite.cloud/graphql",
+      "commerce-endpoint": "https://master-7rqtwti-5knoexkof5j4w.us-4.magentosite.cloud/cs-graphql",
       "headers": {
         "all": {
           "Store": "default"
@@ -12,29 +12,29 @@
           "Magento-Store-Code": "main_website_store",
           "Magento-Store-View-Code": "default",
           "Magento-Website-Code": "base",
-          "x-api-key": "4dfa19c9fe6f4cccade55cc5b3da94f7",
-          "Magento-Environment-Id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a"
+          "x-api-key": "a0b20d63acd44ff4a710569921f4defd",
+          "Magento-Environment-Id": "296ac377-571f-4b4b-935b-c4afa71408d7"
         }
       },
       "analytics": {
         "base-currency-code": "USD",
-        "environment": "Testing",
-        "environment-id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a",
+        "environment": "Staging",
+        "environment-id": "296ac377-571f-4b4b-935b-c4afa71408d7",
         "store-code": "main_website_store",
         "store-id": 1,
         "store-name": "Main Website Store",
-        "store-url": "https://www.aemshop.net",
+        "store-url": "https://master-7rqtwti-5knoexkof5j4w.us-4.magentosite.cloud",
         "store-view-code": "default",
         "store-view-id": 1,
         "store-view-name": "Default Store View",
         "website-code": "base",
         "website-id": 1,
-        "website-name": "Main Website"
-      },
-      "plugins": {
-        "picker": {
-           "rootCategory": "2"
-         }
+        "website-name": "Main Website",
+        "plugins": {
+          "picker": {
+            "rootCategory": "2"
+          }
+        }
       }
     }
   }
